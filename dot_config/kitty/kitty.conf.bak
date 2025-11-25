@@ -1,0 +1,8 @@
+font_family      Iosevka Term
+font_size 18
+
+
+# BEGIN_KITTY_THEME
+# Catppuccin-Frappe
+include current-theme.conf
+# END_KITTY_THEME
