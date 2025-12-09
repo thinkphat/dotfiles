@@ -3,10 +3,12 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
+  <action id="EditorActions">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
     <keyboard-shortcut first-keystroke="ctrl j" />
-    <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="EditorLeft">
     <keyboard-shortcut first-keystroke="left" />
@@ -20,7 +22,32 @@
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
+  <action id="FileChooser.NewFolder">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="GotoClass" />
+  <action id="NewElementInMenuGroup">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="NextTab" />
+  <action id="PopupMenu-selectNext">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="ShowPopupMenu">
+    <keyboard-shortcut first-keystroke="context_menu" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="SplitChooser.SplitDown">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="Vcs.CombinedDiff.CaretToNextBlock">
+    <keyboard-shortcut first-keystroke="down" />
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
   <action id="ViewNavigationBar">
     <keyboard-shortcut first-keystroke="alt minus" />
   </action>
